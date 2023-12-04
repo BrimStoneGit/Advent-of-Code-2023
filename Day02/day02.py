@@ -5,7 +5,7 @@ index_levels = ['Game', 'Draw']
 
 def part1():
     # Read in Input
-    with open('Day02/Input') as f:
+    with open('Day02/Input.txt') as f:
         lines = f.readlines()
     # Set up DataFrame
     result_df = pd.DataFrame()
@@ -49,7 +49,7 @@ def regex_resolve(regex: str, line: str) -> int:
 
 def part2():
     # Read in Input
-    with open('Day02/Input') as f:
+    with open('Day02/Input.txt') as f:
         lines = f.readlines()
     # Set up DataFrame
     result_df = pd.DataFrame()
